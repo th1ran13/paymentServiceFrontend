@@ -53,14 +53,14 @@ public class PaymentAPI extends HttpServlet {
 	 */
 	protected void doPut(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		/*Map paras = getParasMap(request); 
+		Map paras = getParasMap(request); 
 		String output = payObj.updatePayment(paras.get("hidItemIDSave").toString(), 
 										   paras.get("connectionCode").toString(), 
 										   paras.get("name").toString(), 
 										   paras.get("amount").toString(), 
 										   paras.get("paymentType").toString(),
 										   paras.get("date").toString()); 
-		response.getWriter().write(output); */
+		response.getWriter().write(output);
 	}
 
 	/**
